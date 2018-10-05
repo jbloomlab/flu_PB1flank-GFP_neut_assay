@@ -10,9 +10,10 @@ If this is done in the correct media (media with low autofluorescence at the GFP
 You can then use these fluorescence readings to fit a neutralization curve (if you are a Python user, you can even fit these using the [appropriate function in dms_tools2](https://jbloomlab.github.io/dms_tools2/dms_tools2.neutcurve.html)).
 
 To understand the assays in more detail, read the protocol in Katie Hooper's original paper that developed these assays ([Hooper et al (2013)](https://jvi.asm.org/content/87/23/12531.full)) and the more detailed protocol in one of Mike Doud's papers ([Doud et al (2017)](https://journals.plos.org/plospathogens/article?id=10.1371/journal.ppat.1006271)).
-Juhye Lee has also generously written up her protocol and some example lab notes:
+Juhye Lee and Tyler Garretson (Hensley lab) have also generously written up therr protocols and provided some example lab notes:
   - [Juhye's protocol](protocols/JuhyeLeeProtocol.pdf).
-  - [Juhye's lab notes](protocols/NeutralizationAssayNotebook.pdf)
+  - [Juhye's lab notes](protocols/JuhyeLeeNeutralizationAssayNotebook.pdf)
+  - [Tyler Garretson spreading neutralization assay protocol](TylerGarretson-Spreading-Neutralization_Assay-Protocol.pdf)
 
 In addition, if you are working with any virus other than WSN (which is trypsin independent), we now recommend using TMPRSS2-expressing cells to activate HA.
 This is both easier and works better than adding exogenous trypsin.
@@ -27,6 +28,8 @@ Here are some key points in the protocols to pay attention to:
  - When growing PB1flank-GFP viruses, the virus becomes somewhat more sensitive to the growth stage of the cells than "full" influenza viruses, probably because it relies on the cells to produce the PB1 protein. In particular, it doesn't grow well in fully confluent cells probably because they reduce expression of PB1. So make sure that you are growing the virus in subconfluent cells, which can sometimes be hard because these cells grow so fast.
 
  - You can titer the virus by flow cytometry on fixed infected cells, or simply make serial dilutions in a 96-well plate, and read on the plate reader as for the neutralization assays to find a concentration that is near the top of the linear range. This is important--you need to be in the range where the signal goes down as you use less virus. When the assay works well on our plate reader, the "background" signal in wells that receive virus / media but no cells might be about 5,000 units, whereas the maximal signal in the fully infected cells might be 50,000 -- so if your plate reader is similar, that provides some indication of the expected signal to noise. If the background is much higher relative to the signal, then your media is probably somehow having a lot of autofluorescence.
+
+ - Tyler Garretson (Hensley lab) reports that he has found it important to have cell-culture sourced (likely IgG free) BSA. He says: "We use BSA, IgG free, cell culture from Jackson. For a while, I was using our normal BSA we use in our ELISAs and I was getting a lot of variability in our signal/background in my virus stocks. Once I started using Jackson BSA there was no variability and higher signal/background levels."
 
 ## What to request from the Bloom lab
 If you want to run this assay, you will typically need to request the following reagents:

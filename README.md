@@ -13,7 +13,7 @@ To understand the assays in more detail, read the protocol in Katie Hooper's ori
 Juhye Lee and Tyler Garretson (Hensley lab) have also generously written up therr protocols and provided some example lab notes:
   - [Juhye's protocol](protocols/JuhyeLeeProtocol.pdf).
   - [Juhye's lab notes](protocols/JuhyeLeeNeutralizationAssayNotebook.pdf)
-  - [Tyler Garretson spreading neutralization assay protocol](TylerGarretson-Spreading-Neutralization_Assay-Protocol.pdf)
+  - [Tyler Garretson spreading neutralization assay protocol](protocols/TylerGarretson-Spreading-Neutralization_Assay-Protocol.pdf)
 
 In addition, if you are working with any virus other than WSN (which is trypsin independent), we now recommend using TMPRSS2-expressing cells to activate HA.
 This is both easier and works better than adding exogenous trypsin.

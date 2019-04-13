@@ -7,7 +7,8 @@ These viruses are grown on cells constitutively expressing PB1 protein (they can
 
 These PB1flank-GFP viruses are then incubated with dilutions of antibody and used to infect the PB1-expressing cells in a 96-well plate.
 If this is done in the correct media (media with low autofluorescence at the GFP wavelength), then you can simply read out the fluorescence on a 96-well plate reader.
-You can then use these fluorescence readings to fit a neutralization curve (if you are a Python user, you can even fit these using the [appropriate function in dms_tools2](https://jbloomlab.github.io/dms_tools2/dms_tools2.neutcurve.html)).
+You can then use these fluorescence readings to fit a neutralization curve.
+If you are a Python user, you can fit and plot these using the [neutcurve package](https://jbloomlab.github.io/neutcurve).
 
 To understand the assays in more detail, read the protocol in Katie Hooper's original paper that developed these assays ([Hooper et al (2013)](https://jvi.asm.org/content/87/23/12531.full)) and the more detailed protocol in one of Mike Doud's papers ([Doud et al (2017)](https://journals.plos.org/plospathogens/article?id=10.1371/journal.ppat.1006271)).
 Juhye Lee and Tyler Garretson (Hensley lab) have also generously written up therr protocols and provided some example lab notes:

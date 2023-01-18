@@ -11,10 +11,11 @@ You can then use these fluorescence readings to fit a neutralization curve.
 If you are a Python user, you can fit and plot these using the [neutcurve package](https://jbloomlab.github.io/neutcurve).
 
 To understand the assays in more detail, read the protocol in Katie Hooper's original paper that developed these assays ([Hooper et al (2013)](https://jvi.asm.org/content/87/23/12531.full)) and the more detailed protocol in one of Mike Doud's papers ([Doud et al (2017)](https://journals.plos.org/plospathogens/article?id=10.1371/journal.ppat.1006271)).
-Juhye Lee and Tyler Garretson (Hensley lab) have also generously written up therr protocols and provided some example lab notes:
+Juhye Lee and Tyler Garretson (Hensley lab) and Andrea Loes have also generously written up their protocols and provided some example lab notes:
   - [Juhye's protocol](protocols/JuhyeLeeProtocol.pdf).
   - [Juhye's lab notes](protocols/JuhyeLeeNeutralizationAssayNotebook.pdf)
   - [Tyler Garretson spreading neutralization assay protocol](protocols/TylerGarretson-Spreading-Neutralization_Assay-Protocol.pdf)
+  - [Andrea's Protocol for 4 samples/plate] (protocols/Loes_NeutralizationAssayProtocol_4samplesperplate.pdf)
 
 In addition, if you are working with any virus other than WSN (which is trypsin independent), we now recommend using TMPRSS2-expressing cells to activate HA.
 This is both easier and works better than adding exogenous trypsin.
